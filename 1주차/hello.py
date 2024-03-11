@@ -14,3 +14,8 @@ print("my name is inyeong")
 # 	print(c, '는 3의 배수입니다')
 # else:
 # 	print(c, '는 x')
+
+년 = int(input('출생년도를 입력하세요 : '))
+월 = int(input('월을 입력하세요 : '))
+일 = int(input('일을 입력하세요 : '))
+print('당신의 생년월일은 ', 년, '년', 월, '월', 일, '일 입니다')
