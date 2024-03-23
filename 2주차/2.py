@@ -25,7 +25,7 @@
 # print(year, '년은 윤년입니까? ', is_leap_year)
 # #year , 질문, 23번줄에서 판별
 
-# 첫번째 두번째 입력받은 숫자 사이값
+# # 첫번째 두번째 입력받은 숫자 사이값
 # num1 = int(input("첫번째 숫자를 입력하세요 : "))
 # num2 = int(input("두번째 숫자를 입력하세요 : "))
 # for i in range(num1, num2):
