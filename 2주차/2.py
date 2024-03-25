@@ -20,8 +20,10 @@
 
 # #윤년 판별?
 # year = int(input("연도를 입력하세요 : "))
-# is_leap_year = ((year % 4 == 0) and (year % 100 != 0) or year % 400 == 0)
+
 # #4와 100으로 나눴을때 0이 되거나 또는 400으로 나눴을때 0이 되는
+# is_leap_year = ((year % 4 == 0) and (year % 100 != 0) or year % 400 == 0)
+
 # print(year, '년은 윤년입니까? ', is_leap_year)
 # #year , 질문, 23번줄에서 판별
 
