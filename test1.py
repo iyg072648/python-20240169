@@ -121,6 +121,7 @@ if __name__ == '__main__':
         python.move()
         check_eat(python, feed)
         speed = (FPS + python.length) / 2
+        show_info(python.length, speed, surface)
         python.draw(surface)
         feed.draw(surface)
         window.blit(surface, (0, 0))
