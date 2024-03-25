@@ -1,5 +1,3 @@
-#왠지는 모르지만 실행은 되나 eat 또는 check_eat쪽에서 오류가 있는거같음 아니면 포지션 문제.
-
 import pygame
 import sys
 import time
@@ -8,7 +6,7 @@ import random
 from pygame.locals import *
 
 WINDOW_WIDTH = 800
-WINDOW_HEIGHT = 900
+WINDOW_HEIGHT = 600
 GRID_SIZE = 20
 GRID_WIDTH = WINDOW_WIDTH / GRID_SIZE
 GRID_HEIGHT = WINDOW_HEIGHT / GRID_SIZE
@@ -64,9 +62,9 @@ class Feed(object):
     def __init__(self):
         self.position = (0, 0)
         self.color = ORANGE
-        self.craete()
+        self.create()
 
-    def craete(self):
+    def create(self):
         self.position = (random.randint(0, GRID_SIZE - 1) * GRID_SIZE, random.randint(0, GRID_HEIGHT - 1) * GRID_SIZE)
 
     def draw(self, surface):
